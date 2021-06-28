@@ -93,15 +93,3 @@ def main(search_term):
 
 
 main('ultrawide monitor')
-
-# driver = webdriver.Chrome(chrome_path)
-# driver.get("https://www.amazon.com/s?k=ultrawide+monitor&ref=nb_sb_noss&page=1")
-# soup = BeautifulSoup(driver.page_source, 'html.parser')
-# results  = soup.find_all('div', {'data-component-type':'s-search-result'})
-# for item in results:
-#     print(item.i.text)
-#     try:
-#         print(item.find('span',{'class':'a-size-base'}).text)
-#     except AttributeError:
-#         print("lol")
-# driver.close()
