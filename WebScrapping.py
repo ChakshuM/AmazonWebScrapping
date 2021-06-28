@@ -92,4 +92,5 @@ def main(search_term):
 
 
 
-main('ultrawide monitor')
+# main('ultrawide monitor')
+main('shoes')
